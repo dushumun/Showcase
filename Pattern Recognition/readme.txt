@@ -1,10 +1,12 @@
 GUI developed as part of MSc project to showcase the potential for Convolutional Neural Networks
 to be implemented in the detection of railway maintenance issues.
 
+Makes use of an ensemble of the VGG-16 and InceptionV3 CNN architectures, with weight parametres gained from transfer learning based on their IMAGENET weights
+
 Python3 and the following libraries must be installed in order to run GUI
-Tensorflow
-Keras
-Numpy
+-Tensorflow
+-Keras
+-Numpy
 
 ---Installation instructions---
 
