@@ -1,5 +1,7 @@
 
 # Function for performing Dickey-Fuller Stationarity test on time series data. Takes 2 positional arguments. #1 name of panda dataframe. #2 name of column in dataframe as a string
+import matplotlib.pyplot as plt
+
 
 def test_stationarity(df, col):
     df['rolmean'] = df[col].rolling(window = 5, center=False).mean()
